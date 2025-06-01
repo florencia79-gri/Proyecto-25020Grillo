@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../VIDEO"
+		},
+		{
+			"path": "../../raqueta.img"
+		},
+		{
+			"path": "../../raquetaniño"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "la1visual"
+	}
+}

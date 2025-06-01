@@ -1,0 +1,67 @@
+
+main{
+    padding: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+.nombretienda{
+    border: 2px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.nombretienda{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+.caja{
+    background-color:lightblue;
+    border-radius: 0%;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: 0 2px 5px;
+    width: 20;
+}
+
+.menu-ala-derecha {
+        text-align: right;
+}
+.productos-centrados{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.producto{
+    text-align: center;
+    font-weight: bold;
+}
+
+.dejarmensaje{
+
+   height: 5%; 
+   width: 5;
+   background-color: aquamarine;
+}
+
+.grid-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    justify-content: center;
+    margin: 40;
+}
+.producto img{
+    max-width: 100%;
+    height: auto;
+}
